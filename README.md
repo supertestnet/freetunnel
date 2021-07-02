@@ -5,4 +5,4 @@
 
 <h2>How it works</h2>
 
-When enabled, Free Tunnel creates a tunnel to ngrok with https support and tells you the https web address where you can access your lnbits instance. If you are not the first user to enable it, it doesn't create a new one, it just tells you the existing one. Useful for creating/managing/using lnurls, which must be served either via https or via tor. Note that if you restart your device or disable/re-enable this extension, your device will generate a new url. If anyone is using your old one for wallets, lnurls, etc., whatever they are doing will stop working.
+When enabled, Free Tunnel creates a tunnel to ngrok with https support and tells you the https web address where you can access your lnbits instance. If you are not the first user to enable it, it doesn't create a new one, it just tells you the existing one. Useful for creating/managing/using lnurls, which must be served either via https or via tor. Note that if you restart your device, your device will generate a new url. If anyone is using your old one for wallets, lnurls, etc., whatever they are doing will stop working.
