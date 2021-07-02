@@ -1,0 +1,6 @@
+{
+    "name": "Free tunnel",
+    "short_description": "Serve your lnbits over https for free using ngrok.",
+    "icon": "info",
+    "contributors": ["supertestnet"]
+}
