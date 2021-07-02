@@ -1,11 +1,9 @@
-<h1>Example Extension</h1>
-<h2>*tagline*</h2>
+<h1>Free Tunnel</h1>
+<h2>Serve lnbits over https for free using ngrok</h2>
 This is an example extension to help you organise and build you own.
 
-Try to include an image
-<img src="https://i.imgur.com/9i4xcQB.png">
+<img src="https://i.ibb.co/QfDD4FS/Screenshot-2021-07-02-7-28-35-AM.png">
 
+<h2>How it works</h2>
 
-<h2>If your extension has API endpoints, include useful ones here</h2>
-
-<code>curl -H "Content-type: application/json" -X POST https://YOUR-LNBITS/YOUR-EXTENSION/api/v1/EXAMPLE -d '{"amount":"100","memo":"example"}' -H "X-Api-Key: YOUR_WALLET-ADMIN/INVOICE-KEY"</code>
+When enabled, Free Tunnel creates a tunnel to ngrok with https support and tells you the https web address where you can access your lnbits instance. If you are not the first user to enable it, it doesn't create a new one, it just tells you the existing one. Useful for creating/managing/using lnurls, which must be served either via https or via tor. Note that if you restart your device or disable/re-enable this extension, your device will generate a new url. If anyone is using your old one for wallets, lnurls, etc., whatever they are doing will stop working.
