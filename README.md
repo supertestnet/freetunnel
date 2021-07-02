@@ -13,6 +13,8 @@ Check the Extensions page on your instance of lnbits. If you have copy of lnbits
 
 If your copy of lnbits does not have Free Tunnel as one of the built in extensions, stop lnbits, create go into your lnbits folder, and run this command: ./venv/bin/pip install pyngrok. Then go into the lnbits subdirectory and the extensions subdirectory within that. (So lnbits > lnbits > extensions.) Create a new subdirectory in there called freetunnel, download this repository as a zip file, and unzip it in the freetunnel directory. If your unzipper creates a new "freetunnel" subdirectory, take everything out of there and put it in the freetunnel directory you created. Then go back to the top level lnbits directory and run these commands:
 
+```
 ./venv/bin/quart assets
 ./venv/bin/quart migrate
 ./venv/bin/hypercorn -k trio --bind 0.0.0.0:5000 'lnbits.app:create_app()'
+```
