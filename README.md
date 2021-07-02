@@ -1,6 +1,5 @@
 <h1>Free Tunnel</h1>
 <h2>Serve lnbits over https for free using ngrok</h2>
-This is an example extension to help you organise and build you own.
 
 <img src="https://i.ibb.co/QfDD4FS/Screenshot-2021-07-02-7-28-35-AM.png">
 
